@@ -19,6 +19,19 @@ namespace Exe_5
             nadiv = null;
             nugraha = null;
         }
+        public void insert()
+        {
+            string add;
+            Node newnode = new Node();
+            Console.WriteLine("Masukkan Element : ");
+            add = Console.ReadLine();
+            newnode.name = add;
+            newnode.next = nugraha;
+            if(nadiv == null)
+            {
+
+            }
+        }
         public void Delete()
         {
             if(nugraha == null)
