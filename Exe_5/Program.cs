@@ -26,7 +26,7 @@ namespace Exe_5
             Console.WriteLine("Masukkan Element : ");
             add = Console.ReadLine();
             newnode.name = add;
-            newnode.next = nugraha;
+            newnode.next = null;
             if(nadiv == null)
             {
                 nadiv = newnode;
@@ -57,6 +57,13 @@ namespace Exe_5
             Node display;
             for(display = nadiv; display != null; display = display.next)
                 Console.WriteLine(display.name);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
         }
     }
         
