@@ -13,7 +13,12 @@ namespace Exe_5
     }
     class Queue
     {
-        
+        public Node nadiv, nugraha;
+        public Queue()
+        {
+            nadiv = null;
+            nugraha = null;
+        }
     }
         
 
