@@ -11,4 +11,10 @@ namespace Exe_5
         public string name;
         public Node next;
     }
+    class Queue
+    {
+        
+    }
+        
+
 }
