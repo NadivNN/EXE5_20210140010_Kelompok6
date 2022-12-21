@@ -19,6 +19,17 @@ namespace Exe_5
             nadiv = null;
             nugraha = null;
         }
+        public void delete()
+        {
+            if(nugraha == null)
+            {
+                Console.WriteLine("\nList is Empty");
+                return;
+            }
+            nugraha = nugraha.next;
+            if (nadiv == null)
+                nugraha = null;
+        }
     }
         
 
