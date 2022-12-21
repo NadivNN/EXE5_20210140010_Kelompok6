@@ -31,8 +31,12 @@ namespace Exe_5
                 nugraha = null;
         }
         public void Display()
-        {
-
+        { 
+            if(nugraha == null)
+            {
+                Console.WriteLine("\nQueue is empty");
+                return ;
+            }
         }
     }
         
