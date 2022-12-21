@@ -29,8 +29,12 @@ namespace Exe_5
             newnode.next = nugraha;
             if(nadiv == null)
             {
-
+                nadiv = newnode;
+                nugraha = newnode;
+                return;
             }
+            nugraha.next = newnode;
+            nugraha = newnode;
         }
         public void Delete()
         {
