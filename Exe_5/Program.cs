@@ -38,7 +38,7 @@ namespace Exe_5
         }
         public void Delete()
         {
-            if(nugraha == null)
+            if(nadiv == null)
             {
                 Console.WriteLine("\nList is Empty");
                 return;
