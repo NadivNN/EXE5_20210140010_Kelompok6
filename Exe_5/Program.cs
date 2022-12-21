@@ -43,7 +43,7 @@ namespace Exe_5
                 Console.WriteLine("\nList is Empty");
                 return;
             }
-            nugraha = nugraha.next;
+            nadiv = nadiv.next;
             if (nadiv == null)
                 nugraha = null;
         }
@@ -74,8 +74,8 @@ namespace Exe_5
                     Console.WriteLine("2. Menghapus Data dari Dalam List");
                     Console.WriteLine("3. Melihat semua Data di dalam List");
                     Console.WriteLine("4. Exit");
-                    Console.Write("Masukkan pilihan anda (1 - 4: ");
-                    ch = Convert.ToChar(Console.ReadKey());
+                    Console.Write("Masukkan pilihan anda (1 - 4): ");
+                    ch = Convert.ToChar(Console.ReadLine());
                     switch (ch)
                     {
                         case '1':
@@ -88,7 +88,7 @@ namespace Exe_5
                             qe.Display();
                             break;
                         case '4':
-                            return ;
+                            return;
                         default:
                             Console.WriteLine("Wrong option");
                             break;
