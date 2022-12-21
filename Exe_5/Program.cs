@@ -30,7 +30,10 @@ namespace Exe_5
             if (nadiv == null)
                 nugraha = null;
         }
-    
+        public void Display()
+        {
+
+        }
     }
         
 
