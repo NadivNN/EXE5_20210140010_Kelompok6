@@ -37,6 +37,9 @@ namespace Exe_5
                 Console.WriteLine("\nQueue is empty");
                 return ;
             }
+            Node display;
+            for(display = nadiv; display != null; display = display.next)
+                Console.WriteLine(display.name);
         }
     }
         
