@@ -19,7 +19,7 @@ namespace Exe_5
             nadiv = null;
             nugraha = null;
         }
-        public void delete()
+        public void Delete()
         {
             if(nugraha == null)
             {
@@ -30,6 +30,7 @@ namespace Exe_5
             if (nadiv == null)
                 nugraha = null;
         }
+    
     }
         
 
