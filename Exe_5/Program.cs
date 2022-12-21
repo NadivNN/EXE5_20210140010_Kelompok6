@@ -32,7 +32,7 @@ namespace Exe_5
         }
         public void Display()
         { 
-            if(nugraha == null)
+            if(nadiv == null)
             {
                 Console.WriteLine("\nQueue is empty");
                 return ;
